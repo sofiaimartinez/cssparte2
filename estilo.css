@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 600px;
+    height: 600px;
+}
+.item1{
+    background-color: rgb(255, 0, 0);
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    background-color: rgb(21, 249, 0);
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    background-color: rgb(8, 0, 255);
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
